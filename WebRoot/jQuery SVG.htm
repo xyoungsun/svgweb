@@ -1,0 +1,178 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0031)http://keith-wood.name/svg.html -->
+<HTML xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:svg = 
+"http://www.w3.org/2000/svg" xmlns:xlink = 
+"http://www.w3.org/1999/xlink"><HEAD><TITLE>jQuery SVG</TITLE>
+<META content=application/xhtml+xml;charset=utf-8 http-equiv=Content-Type><LINK 
+rel=stylesheet type=text/css href="jQuery%20SVG_files/jquery-ui.css"><LINK 
+rel=stylesheet type=text/css href="jQuery%20SVG_files/jquery.bookmark.css"><LINK 
+rel=stylesheet type=text/css href="jQuery%20SVG_files/jquery.svg.css"><LINK 
+rel=stylesheet type=text/css href="jQuery%20SVG_files/demo.css">
+<STYLE type=text/css>#tips UL {
+	WIDTH: auto
+}
+TABLE {
+	WIDTH: 100%
+}
+PRE {
+	CLEAR: none
+}
+.ui-widget-content PRE.ui-state-active {
+	COLOR: #000; FONT-WEIGHT: normal
+}
+.svgdiv {
+	BORDER-BOTTOM: #3c8243 1px solid; BORDER-LEFT: #3c8243 1px solid; BACKGROUND: #ffffff; BORDER-TOP: #3c8243 1px solid; BORDER-RIGHT: #3c8243 1px solid
+}
+#svgintro {
+	BORDER-BOTTOM: #3c8243 1px solid; BORDER-LEFT: #3c8243 1px solid; WIDTH: 150px; BACKGROUND: #fff; FLOAT: right; HEIGHT: 150px; BORDER-TOP: #3c8243 1px solid; MARGIN-RIGHT: 30px; BORDER-RIGHT: #3c8243 1px solid
+}
+.svgsample {
+	PADDING-BOTTOM: 5px; MARGIN: 0% 1% 0% 0%; PADDING-LEFT: 5px; WIDTH: 48%; PADDING-RIGHT: 5px; FLOAT: left; PADDING-TOP: 5px
+}
+.drawOpt {
+	WIDTH: 25%; FLOAT: left
+}
+.row {
+	CLEAR: both
+}
+#domMods {
+	DISPLAY: none
+}
+</STYLE>
+
+<SCRIPT type=text/javascript src="jQuery%20SVG_files/jquery-1.7.2.js"></SCRIPT>
+<!-- SVG modified version -->
+<SCRIPT type=text/javascript src="jQuery%20SVG_files/jquery-ui.min.js"></SCRIPT>
+
+<SCRIPT type=text/javascript 
+src="jQuery%20SVG_files/jquery.bookmark.js"></SCRIPT>
+
+<SCRIPT type=text/javascript src="jQuery%20SVG_files/jquery.svg.js"></SCRIPT>
+
+<SCRIPT type=text/javascript 
+src="jQuery%20SVG_files/jquery.svganim.js"></SCRIPT>
+
+<SCRIPT type=text/javascript src="jQuery%20SVG_files/jquery.svgdom.js"></SCRIPT>
+
+<SCRIPT type=text/javascript 
+src="jQuery%20SVG_files/jquery.svgfilter.js"></SCRIPT>
+
+<SCRIPT type=text/javascript 
+src="jQuery%20SVG_files/jquery.svggraph.js"></SCRIPT>
+
+<SCRIPT type=text/javascript 
+src="jQuery%20SVG_files/jquery.svgplot.js"></SCRIPT>
+
+<SCRIPT type=text/javascript src="jQuery%20SVG_files/svg.js"></SCRIPT>
+
+<SCRIPT type=text/javascript 
+src="jQuery%20SVG_files/jquery.chili-2.2.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>
+var shapes = [];
+var values = [];
+
+$(function() {
+	$('#download').click(function() {
+		pageTracker._trackPageview('/downloads/svg-1.4.5');
+		window.location = 'zip/jquery.svg.package-1.4.5.zip';
+	});
+	$('#svgexample').svg();
+	initExamples();
+	setGraphOptions();
+	$('#showMods').toggle(function() {
+		$(this).text($(this).text().replace(/Show/, 'Hide'))
+		$('#domMods').show();
+		return false;
+	}, function() {
+		$(this).text($(this).text().replace(/Hide/, 'Show'))
+		$('#domMods').hide();
+		return false;
+	});
+});
+</SCRIPT>
+
+<SCRIPT type=text/javascript src="jQuery%20SVG_files/demo.js"></SCRIPT>
+<!-- After SVG load -->
+<META name=GENERATOR content="MSHTML 9.00.8112.16421"></HEAD>
+<BODY>
+<H1>jQuery SVG</H1>
+<P>A <A href="http://jquery.com/">jQuery</A> <A 
+href="http://plugins.jquery.com/kbw.svg/">plugin</A> that lets you interact with 
+an SVG canvas.</P>
+<P>The current version is <SPAN class=version>1.4.5</SPAN> and is available 
+under the <A 
+href="https://github.com/jquery/jquery/blob/master/MIT-LICENSE.txt">MIT</A> 
+licence. For more detail see the <A 
+href="http://keith-wood.name/svgRef.html">documentation reference</A> page, or 
+the <A href="http://keith-wood.name/svggraphRef.html">graphing reference</A> or 
+<A href="http://keith-wood.name/svgplotRef.html">plotting reference</A> pages. 
+Or see a <A href="http://keith-wood.name/svgBasics.html">minimal page</A> that 
+you could use as a basis for your own investigations.</P>
+<P style="TEXT-ALIGN: center"><BUTTON id=download>Download now</BUTTON> <SPAN 
+id=bookmark></SPAN></P>
+<DIV id=tabs>
+
+<H2>SVG Load</H2>
+<P>The SVG component may be updated with inline SVG elements, be cleared of all 
+content, or be loaded with external SVG documents. In the latter case, you may 
+pass additional settings to add to any existing content (<CODE>addTo: 
+true</CODE>) or automatically clear it first (<CODE>addTo: false</CODE> - the 
+default).</P>
+<P>You can also specify a callback function (<CODE>onLoad: loadDone</CODE>) to 
+be notified when the external document (loaded asynchronously) has completed. 
+The function receives the current SVG wrapper object as a parameter, and an 
+additional message parameter if there was an error. The <CODE>this</CODE> object 
+is the SVG container division.</P>
+<DIV style="WIDTH: 100%; HEIGHT: 300px" id=svgload class=svgdiv></DIV>
+<P><BUTTON id=addInline>Add inline fragment</BUTTON><BUTTON 
+id=clear1>Clear</BUTTON></P><svg:svg id=svginline><svg:g><svg:rect fill="blue" 
+y="90" x="20" height="50" width="350"></svg:rect><svg:text fill="white" y="120" 
+x="40" font-weight="bold">This came from an inline SVG fragment</svg:text> 
+</svg:g></svg:svg><PRE class="doc showCode"><SPAN class=ui-state-active><CODE class=html>&lt;svg:svg id="svginline"&gt;
+  &lt;svg:g&gt;
+    &lt;svg:rect width="350" height="50" x="20" y="90" fill="blue"&gt;&lt;/svg:rect&gt;
+    &lt;svg:text x="40" y="120" fill="white" font-weight="bold"&gt;
+      This came from an inline SVG fragment&lt;/svg:text&gt;
+  &lt;/svg:g&gt;
+&lt;/svg:svg&gt;</CODE></SPAN></PRE><PRE><CODE class=jsdemo>$('#svgload').svg();
+
+$('#addInline').click(function() {
+	var svg = $('#svgload').svg('get');
+	svg.add($('#svginline &gt; *'));
+	resetSize(svg);
+});
+
+$('#clear1').click(function() {
+	$('#svgload').svg('get').clear();
+});</CODE></PRE>
+<P><INPUT id=loadURL value=lion.svg size=40> <INPUT id=addTo value=yes 
+type=checkbox> <LABEL for=addTo>Add to</LABEL><BUTTON 
+id=loadExternal>Load</BUTTON></P><PRE><CODE class=jsdemo>$('#loadExternal').click(function() {
+	var svg = $('#svgload').svg('get');
+	svg.load($('#loadURL').val(), {addTo: $('#addTo')[0].checked,
+		changeSize: false, onLoad: loadDone});
+	resetSize(svg);
+});
+
+/* Callback after loading external document */
+function loadDone(svg, error) {
+	svg.text(10, 20, error || 'Loaded into ' + this.id);
+}</CODE></PRE></DIV>
+
+
+
+<P><A id=valid 
+href="http://validator.w3.org/check?uri=http://keith-wood.name/svg.html"><IMG 
+alt="Valid XHTML 1.1" src="jQuery%20SVG_files/valid-xhtml11.png"></A> </P>
+<SCRIPT type=text/javascript>
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</SCRIPT>
+
+<SCRIPT type=text/javascript>
+var pageTracker = _gat._getTracker("UA-4715900-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</SCRIPT>
+</BODY></HTML>

@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg viewBox="0,0,1500,1200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:cge="http://www.cim.com" >
+<defs>
+<style type="text/css"><![CDATA[
+.kv0{stroke:rgb(85,85,0);fill:none}
+.kv10{stroke:rgb(8,41,255);fill:none}
+.kv1000kV{stroke:rgb(255,235,12);fill:none}
+.kv110kV{stroke:rgb(255,0,0);fill:none}
+.kv13{stroke:rgb(0,170,0);fill:none}
+.kv15{stroke:rgb(170,0,255);fill:none}
+.kv18kV{stroke:rgb(85,170,255);fill:none}
+.kv1kV{stroke:rgb(85,85,0);fill:none}
+.kv20kV{stroke:rgb(85,170,255);fill:none}
+.kv220kV{stroke:rgb(255,255,255);fill:none}
+.kv27kV{stroke:rgb(85,170,255);fill:none}
+.kv330kV{stroke:rgb(255,0,0);fill:none}
+.kv35kV{stroke:rgb(8,41,255);fill:none}
+.kv500kV{stroke:rgb(255,174,24);fill:none}
+.kv6{stroke:rgb(170,170,127);fill:none}
+.kv66kV{stroke:rgb(8,41,255);fill:none}
+.kv-1{stroke:rgb(93,92,88);fill:none}
+]]></style>
+<symbol id="terminal" preserveAspectRatio="xMidYMid meet">
+ <circle cx="0" cy="0" r="1" stroke="yellow" fill="yellow" stroke-width="1"/>
+</symbol>
+<symbol id="Breaker:henan_标准开关_0" viewBox="0,0,32,28" >
+ <use x="16" y="2" xlink:href="#terminal" Plane="0"/>
+ <use x="16" y="26" xlink:href="#terminal" Plane="0"/>
+ <rect x="10" y="2" width="12" height="24" transform="rotate(0,16,14)" stroke-width="2" />
+</symbol>
+<symbol id="Breaker:henan_标准开关_1" viewBox="0,0,32,28" >
+ <use x="16" y="2" xlink:href="#terminal" Plane="0"/>
+ <use x="16" y="26" xlink:href="#terminal" Plane="0"/>
+ <rect x="10" y="2" width="12" height="24" transform="rotate(0,16,14)" stroke-width="2" />
+</symbol>
+<symbol id="Disconnector:henan_刀闸3_0" viewBox="0,0,24,24" >
+ <use x="11" y="20" xlink:href="#terminal" Plane="0"/>
+ <use x="11" y="4" xlink:href="#terminal" Plane="0"/>
+ <line x1="11" y1="18" x2="20" y2="5" stroke-width="1" />
+ <circle cx="10" cy="4" r="2" stroke-width="1" />
+ <circle cx="10" cy="20" r="2" stroke-width="1" />
+</symbol>
+<symbol id="Disconnector:henan_刀闸3_1" viewBox="0,0,24,24" >
+ <use x="11" y="20" xlink:href="#terminal" Plane="0"/>
+ <use x="11" y="4" xlink:href="#terminal" Plane="0"/>
+ <line x1="11" y1="6" x2="11" y2="18" stroke-width="1" />
+ <circle cx="11" cy="4" r="2" stroke-width="1" />
+ <circle cx="11" cy="20" r="2" stroke-width="1" />
+</symbol>
+<symbol id="Breaker:henan_标准开关(横)_0" viewBox="0,0,44,28" >
+ <use x="10" y="14" xlink:href="#terminal" Plane="0"/>
+ <use x="34" y="14" xlink:href="#terminal" Plane="0"/>
+ <rect x="16" y="2" width="12" height="24" transform="rotate(-90,22,14)" stroke-width="2" />
+</symbol>
+<symbol id="Breaker:henan_标准开关(横)_1" viewBox="0,0,44,28" >
+ <use x="10" y="14" xlink:href="#terminal" Plane="0"/>
+ <use x="34" y="14" xlink:href="#terminal" Plane="0"/>
+ <rect x="16" y="2" width="12" height="24" transform="rotate(-90,22,14)" stroke-width="2" />
+</symbol>
+<symbol id="GroundDisconnector:接地刀_0" viewBox="0,0,26,26" >
+ <use x="22" y="12" xlink:href="#terminal" Plane="0"/>
+ <line x1="19" y1="12" x2="15" y2="12" stroke-width="1" />
+ <line x1="13" y1="7" x2="13" y2="18" stroke-width="1" />
+ <line x1="9" y1="9" x2="9" y2="13" stroke-width="1" />
+ <line x1="6" y1="11" x2="6" y2="14" stroke-width="1" />
+</symbol>
+<symbol id="GroundDisconnector:接地刀_1" viewBox="0,0,26,26" >
+ <use x="22" y="12" xlink:href="#terminal" Plane="0"/>
+ <line x1="18" y1="12" x2="14" y2="12" stroke-width="1" />
+ <line x1="12" y1="7" x2="12" y2="18" stroke-width="1" />
+ <line x1="8" y1="9" x2="8" y2="16" stroke-width="1" />
+ <line x1="5" y1="11" x2="5" y2="14" stroke-width="1" />
+</symbol>
+</defs>
+<g id="Head_Layer">
+ <rect x="0" y="0" height="905" width="1260" fill="rgb(0,0,0)" FacName="晨光变" InitShowingPlane="0," />
+</g>
+<g id="Other_Layer">
+ <rect x="44" y="26" width="211" height="72" transform="rotate(0,149,62)" stroke-width="1" stroke="rgb(0,84,24)" fill="rgb(0,84,24)" Plane="0" AFMask="32895"/>
+ <a xlink:href="henan_鹤壁_灵山变.fac.svg" Plane="0" AFMask="32895" ChangePicPlane="0," >
+  <rect x="722" y="180" width="85" height="24" fill-opacity="0" stroke-opacity="0" stroke-width="1" />
+ </a>
+ <a xlink:href="henan_系统图_豫北地区目录图.fac.svg" Plane="0" AFMask="32783" ChangePicPlane="0," >
+  <rect x="589" y="48" width="214" height="50" fill-opacity="0" stroke-opacity="0" stroke-width="2" />
+ </a>
+ <a xlink:href="henan_鹤壁_灵山变.fac.svg" Plane="0" AFMask="32895" ChangePicPlane="0," >
+  <rect x="940" y="180" width="83" height="25" fill-opacity="0" stroke-opacity="0" stroke-width="1" />
+ </a>
+ <a xlink:href="henan_鹤壁_浚县变.fac.svg" Plane="0" AFMask="32895" ChangePicPlane="0," >
+  <rect x="369" y="180" width="66" height="24" fill-opacity="0" stroke-opacity="0" stroke-width="1" />
+ </a>
+</g>
+<g id="Bus_Layer">
+ <g id="30000000">
+  <path d="M 125 524 L 461 524" stroke-width="4" class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Ref ObjectID="230001371" ObjectName="晨光变\230.00千伏\BS_西母北段" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="30000001">
+  <path d="M 120 489 L 1056 489" stroke-width="4" class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Ref ObjectID="230001370" ObjectName="晨光变\230.00千伏\BS_东母" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="30000274">
+  <path d="M 541 524 L 1052 524" stroke-width="4" class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Ref ObjectID="230001372" ObjectName="晨光变\230.00千伏\BS_西母南段" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+</g>
+<g id="Breaker_Layer">
+ <g id="100000001">
+  <use x="757" y="414" width="32" height="28" transform="rotate(0,757,414) scale(1,1) translate(-16,-14)" xlink:href="#Breaker:henan_标准开关_0" class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Ref ObjectID="220005281" ObjectName="晨光变\230.00千伏\CB_II灵晨2开关" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="100000003">
+  <use x="319" y="440" width="44" height="28" transform="rotate(0,319,440) scale(1,1) translate(-22,-14)" xlink:href="#Breaker:henan_标准开关(横)_0" class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Ref ObjectID="220005275" ObjectName="晨光变\230.00千伏\CB_北220开关" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="100000113">
+  <use x="980" y="412" width="32" height="28" transform="rotate(0,980,412) scale(1,1) translate(-16,-14)" xlink:href="#Breaker:henan_标准开关_0" class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Ref ObjectID="220005282" ObjectName="晨光变\230.00千伏\CB_I灵晨2开关" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="100000253">
+  <use x="227" y="418" width="32" height="28" transform="rotate(0,227,418) scale(1,1) translate(-16,-14)" xlink:href="#Breaker:henan_标准开关_0" class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Ref ObjectID="220005274" ObjectName="晨光变\230.00千伏\CB_II晨熙1开关" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="100000281">
+  <use x="874" y="436" width="44" height="28" transform="rotate(0,874,436) scale(1,1) translate(-22,-14)" xlink:href="#Breaker:henan_标准开关(横)_0" class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Ref ObjectID="220005283" ObjectName="晨光变\230.00千伏\CB_南220开关" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="100000299">
+  <use x="622" y="412" width="32" height="28" transform="rotate(0,622,412) scale(1,1) translate(-16,-14)" xlink:href="#Breaker:henan_标准开关_0" class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Ref ObjectID="220005280" ObjectName="晨光变\230.00千伏\CB_I晨熙1开关" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="100000319">
+  <use x="398" y="412" width="32" height="28" transform="rotate(0,398,412) scale(1,1) translate(-16,-14)" xlink:href="#Breaker:henan_标准开关_0" class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Ref ObjectID="220005279" ObjectName="晨光变\230.00千伏\CB_浚晨2开关" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="100000334">
+  <use x="499" y="570" width="44" height="28" transform="rotate(0,499,570) scale(1,1) translate(-22,-14)" xlink:href="#Breaker:henan_标准开关(横)_0" class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Ref ObjectID="220005276" ObjectName="晨光变\230.00千伏\CB_西220开关" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+</g>
+<g id="Disconnector_Layer">
+ <g id="101000003">
+  <use x="758" y="378" width="24" height="24" transform="rotate(0,758,378) scale(1,1) translate(-11,-12)" xlink:href="#Disconnector:henan_刀闸3_0" class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Ref ObjectID="221010095" ObjectName="晨光变\230.00千伏\SW_II灵晨2甲刀闸" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="101000004">
+  <use x="734" y="467" width="24" height="24" transform="rotate(0,734,467) scale(1,1) translate(-11,-12)" xlink:href="#Disconnector:henan_刀闸3_0" class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Ref ObjectID="221010093" ObjectName="晨光变\230.00千伏\SW_II灵晨2西刀闸" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="101000005">
+  <use x="782" y="467" width="24" height="24" transform="rotate(0,782,467) scale(1,1) translate(-11,-12)" xlink:href="#Disconnector:henan_刀闸3_0" class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Ref ObjectID="221010094" ObjectName="晨光变\230.00千伏\SW_II灵晨2东刀闸" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="101000009">
+  <use x="296" y="465" width="24" height="24" transform="rotate(0,296,465) scale(1,1) translate(-11,-12)" xlink:href="#Disconnector:henan_刀闸3_0" class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Ref ObjectID="221010077" ObjectName="晨光变\230.00千伏\SW_北220西刀闸" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="101000010">
+  <use x="344" y="465" width="24" height="24" transform="rotate(0,344,465) scale(1,1) translate(-11,-12)" xlink:href="#Disconnector:henan_刀闸3_0" class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Ref ObjectID="221010078" ObjectName="晨光变\230.00千伏\SW_北220东刀闸" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="101000116">
+  <use x="1005" y="465" width="24" height="24" transform="rotate(0,1005,465) scale(1,1) translate(-11,-12)" xlink:href="#Disconnector:henan_刀闸3_0" class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Ref ObjectID="221010097" ObjectName="晨光变\230.00千伏\SW_I灵晨2东刀闸" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="101000115">
+  <use x="957" y="465" width="24" height="24" transform="rotate(0,957,465) scale(1,1) translate(-11,-12)" xlink:href="#Disconnector:henan_刀闸3_0" class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Ref ObjectID="221010096" ObjectName="晨光变\230.00千伏\SW_I灵晨2西刀闸" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="101000114">
+  <use x="981" y="376" width="24" height="24" transform="rotate(0,981,376) scale(1,1) translate(-11,-12)" xlink:href="#Disconnector:henan_刀闸3_0" class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Ref ObjectID="221010098" ObjectName="晨光变\230.00千伏\SW_I灵晨2甲刀闸" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="101000256">
+  <use x="253" y="471" width="24" height="24" transform="rotate(0,253,471) scale(1,1) translate(-11,-12)" xlink:href="#Disconnector:henan_刀闸3_0" class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Ref ObjectID="221010075" ObjectName="晨光变\230.00千伏\SW_II晨熙1东刀闸" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="101000255">
+  <use x="205" y="471" width="24" height="24" transform="rotate(0,205,471) scale(1,1) translate(-11,-12)" xlink:href="#Disconnector:henan_刀闸3_0" class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Ref ObjectID="221010074" ObjectName="晨光变\230.00千伏\SW_II晨熙1西刀闸" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="101000254">
+  <use x="227" y="381" width="24" height="24" transform="rotate(0,227,381) scale(1,1) translate(-11,-12)" xlink:href="#Disconnector:henan_刀闸3_0" class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Ref ObjectID="221010076" ObjectName="晨光变\230.00千伏\SW_II晨熙1甲刀闸" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="101000283">
+  <use x="899" y="461" width="24" height="24" transform="rotate(0,899,461) scale(1,1) translate(-11,-12)" xlink:href="#Disconnector:henan_刀闸3_0" class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Ref ObjectID="221010100" ObjectName="晨光变\230.00千伏\SW_南220东刀闸" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="101000282">
+  <use x="851" y="461" width="24" height="24" transform="rotate(0,851,461) scale(1,1) translate(-11,-12)" xlink:href="#Disconnector:henan_刀闸3_0" class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Ref ObjectID="221010099" ObjectName="晨光变\230.00千伏\SW_南220西刀闸" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="101000302">
+  <use x="647" y="465" width="24" height="24" transform="rotate(0,647,465) scale(1,1) translate(-11,-12)" xlink:href="#Disconnector:henan_刀闸3_0" class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Ref ObjectID="221010091" ObjectName="晨光变\230.00千伏\SW_I晨熙1东刀闸" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="101000301">
+  <use x="599" y="465" width="24" height="24" transform="rotate(0,599,465) scale(1,1) translate(-11,-12)" xlink:href="#Disconnector:henan_刀闸3_0" class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Ref ObjectID="221010090" ObjectName="晨光变\230.00千伏\SW_I晨熙1西刀闸" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="101000300">
+  <use x="623" y="376" width="24" height="24" transform="rotate(0,623,376) scale(1,1) translate(-11,-12)" xlink:href="#Disconnector:henan_刀闸3_0" class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Ref ObjectID="221010092" ObjectName="晨光变\230.00千伏\SW_I晨熙1甲刀闸" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="101000320">
+  <use x="399" y="376" width="24" height="24" transform="rotate(0,399,376) scale(1,1) translate(-11,-12)" xlink:href="#Disconnector:henan_刀闸3_0" class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Ref ObjectID="221010089" ObjectName="晨光变\230.00千伏\SW_浚晨2甲刀闸" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="101000321">
+  <use x="375" y="465" width="24" height="24" transform="rotate(0,375,465) scale(1,1) translate(-11,-12)" xlink:href="#Disconnector:henan_刀闸3_0" class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Ref ObjectID="221010081" ObjectName="晨光变\230.00千伏\SW_浚晨2西刀闸" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="101000322">
+  <use x="423" y="465" width="24" height="24" transform="rotate(0,423,465) scale(1,1) translate(-11,-12)" xlink:href="#Disconnector:henan_刀闸3_0" class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Ref ObjectID="221010085" ObjectName="晨光变\230.00千伏\SW_浚晨2东刀闸" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="101000325">
+  <use x="445" y="547" width="24" height="24" transform="rotate(0,445,547) scale(1,1) translate(-11,-12)" xlink:href="#Disconnector:henan_刀闸3_0" class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Ref ObjectID="221010079" ObjectName="晨光变\230.00千伏\SW_西220北刀闸" Plane="0" AFMask="32799"/>
+  </metadata>
+ </g>
+ <g id="101000326">
+  <use x="556" y="547" width="24" height="24" transform="rotate(0,556,547) scale(1,1) translate(-11,-12)" xlink:href="#Disconnector:henan_刀闸3_0" class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Ref ObjectID="221010080" ObjectName="晨光变\230.00千伏\SW_西220南刀闸" Plane="0" AFMask="32799"/>
+  </metadata>
+ </g>
+</g>
+<g id="GroundDisconnector_Layer">
+ <g id="111000039">
+  <use x="734" y="341" width="26" height="26" transform="rotate(0,734,341) scale(1,1) translate(-22,-12)" xlink:href="#GroundDisconnector:接地刀_0" class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Ref ObjectID="222002929" ObjectName="晨光变\230.00千伏\GRNDSW_II灵晨2地刀" Plane="0" AFMask="32799"/>
+  </metadata>
+ </g>
+ <g id="111000117">
+  <use x="959" y="339" width="26" height="26" transform="rotate(0,959,339) scale(1,1) translate(-22,-12)" xlink:href="#GroundDisconnector:接地刀_0" class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Ref ObjectID="222002930" ObjectName="晨光变\230.00千伏\GRNDSW_I灵晨2地刀" Plane="0" AFMask="32799"/>
+  </metadata>
+ </g>
+ <g id="111000257">
+  <use x="205" y="345" width="26" height="26" transform="rotate(0,205,345) scale(1,1) translate(-22,-12)" xlink:href="#GroundDisconnector:接地刀_0" class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Ref ObjectID="222002924" ObjectName="晨光变\230.00千伏\GRNDSW_II晨熙1地刀" Plane="0" AFMask="32799"/>
+  </metadata>
+ </g>
+ <g id="111000303">
+  <use x="599" y="339" width="26" height="26" transform="rotate(0,599,339) scale(1,1) translate(-22,-12)" xlink:href="#GroundDisconnector:接地刀_0" class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Ref ObjectID="222002928" ObjectName="晨光变\230.00千伏\GRNDSW_I晨熙1地刀" Plane="0" AFMask="32799"/>
+  </metadata>
+ </g>
+ <g id="111000323">
+  <use x="375" y="339" width="26" height="26" transform="rotate(0,375,339) scale(1,1) translate(-22,-12)" xlink:href="#GroundDisconnector:接地刀_0" class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Ref ObjectID="222002925" ObjectName="晨光变\230.00千伏\GRNDSW_浚晨2地刀" Plane="0" AFMask="32799"/>
+  </metadata>
+ </g>
+</g>
+<g id="Load_Layer">
+ <g id="32000338">
+ <path d="M 621 316 L 621 232" stroke-width="1" class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Ref ObjectID="270001464" ObjectName="晨光变\230.00千伏\LD_I晨熙负荷" Plane="0" AFMask="32799"/>
+  </metadata>
+ </g>
+ <g id="32000341">
+ <path d="M 227 322 L 227 232" stroke-width="2" class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Ref ObjectID="270001465" ObjectName="晨光变\230.00千伏\LD_II晨熙负荷" Plane="0" AFMask="32799"/>
+  </metadata>
+ </g>
+</g>
+<g id="ACLineSegment_Layer">
+ <g id="36000112">
+ <path d="M 979 316 L 979 233" stroke-width="1" class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Ref ObjectID="ST=210000496/LN=240000965" ObjectName="ST=晨光变/LN=ACLN_I灵晨线" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="36000258">
+ <path d="M 756 318 L 756 235" stroke-width="1" class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Ref ObjectID="ST=210000496/LN=240000966" ObjectName="ST=晨光变/LN=ACLN_II灵晨线" Plane="0" AFMask="32799"/>
+  </metadata>
+ </g>
+ <g id="36000318">
+ <path d="M 397 316 L 397 233" stroke-width="1" class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Ref ObjectID="ST=210000496/LN=240000964" ObjectName="ST=晨光变/LN=ACLN_浚晨线" Plane="0" AFMask="32799"/>
+  </metadata>
+ </g>
+</g>
+<g id="Link_Layer">
+ <g id="34000007">
+ <path d="M 780 459 L 780 441 L 756 441" stroke-width="1"  class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Link MaxPinNum="2" Pin0InfoVect0LinkObjId="101000005_0" Pin1InfoVect0LinkObjId="34000008_0" Pin1InfoVect1LinkObjId="34000009_1" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="34000008">
+ <path d="M 756 441 L 732 441 L 732 459" stroke-width="1"  class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Link MaxPinNum="2" Pin0InfoVect0LinkObjId="34000007_1" Pin0InfoVect1LinkObjId="34000009_1" Pin1InfoVect0LinkObjId="101000004_0" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="34000009">
+ <path d="M 756 425 L 756 441" stroke-width="1"  class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Link MaxPinNum="2" Pin0InfoVect0LinkObjId="100000001_1" Pin1InfoVect0LinkObjId="34000007_1" Pin1InfoVect1LinkObjId="34000008_0" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="34000010">
+ <path d="M 756 384 L 756 400" stroke-width="1"  class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Link MaxPinNum="2" Pin0InfoVect0LinkObjId="101000003_1" Pin1InfoVect0LinkObjId="100000001_0" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="34000012">
+ <path d="M 756 351 L 756 370" stroke-width="1"  class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Link MaxPinNum="2" Pin0InfoVect0LinkObjId="34000035_1" Pin1InfoVect0LinkObjId="101000003_0" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="34000018">
+ <path d="M 330 439 L 342 439 L 342 457" stroke-width="1"  class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Link MaxPinNum="2" Pin0InfoVect0LinkObjId="100000003_1" Pin1InfoVect0LinkObjId="101000010_0" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="34000019">
+ <path d="M 306 439 L 294 439 L 294 457" stroke-width="1"  class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Link MaxPinNum="2" Pin0InfoVect0LinkObjId="100000003_0" Pin1InfoVect0LinkObjId="101000009_0" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="34000020">
+ <path d="M 294 471 L 294 524" stroke-width="1"  class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Link MaxPinNum="2" Pin0InfoVect0LinkObjId="101000009_1" Pin1InfoVect0LinkObjId="30000000_0" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="34000021">
+ <path d="M 342 471 L 342 489" stroke-width="1"  class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Link MaxPinNum="2" Pin0InfoVect0LinkObjId="101000010_1" Pin1InfoVect0LinkObjId="30000001_0" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="34000027">
+ <path d="M 780 473 L 780 489" stroke-width="1"  class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Link MaxPinNum="2" Pin0InfoVect0LinkObjId="101000005_1" Pin1InfoVect0LinkObjId="30000001_0" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="34000028">
+ <path d="M 732 473 L 732 524" stroke-width="1"  class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Link MaxPinNum="2" Pin0InfoVect0LinkObjId="101000004_1" Pin1InfoVect0LinkObjId="30000274_0" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="34000033">
+ <path d="M 756 341 L 734 341" stroke-width="1"  class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Link MaxPinNum="2" Pin0InfoVect0LinkObjId="34000034_1" Pin0InfoVect1LinkObjId="34000035_0" Pin1InfoVect0LinkObjId="111000039_0" Plane="0" AFMask="32799"/>
+  </metadata>
+ </g>
+ <g id="34000034">
+ <path d="M 756 318 L 756 341" stroke-width="1"  class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Link MaxPinNum="2" Pin0InfoVect0LinkObjId="36000258_0" Pin1InfoVect0LinkObjId="34000033_0" Pin1InfoVect1LinkObjId="34000035_0" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="34000035">
+ <path d="M 756 341 L 756 351" stroke-width="1"  class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Link MaxPinNum="2" Pin0InfoVect0LinkObjId="34000034_1" Pin0InfoVect1LinkObjId="34000033_0" Pin1InfoVect0LinkObjId="34000012_0" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="34000111">
+ <path d="M 979 339 L 979 349" stroke-width="1"  class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Link MaxPinNum="2" Pin0InfoVect0LinkObjId="34000110_1" Pin0InfoVect1LinkObjId="34000109_0" Pin1InfoVect0LinkObjId="34000106_0" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="34000110">
+ <path d="M 979 316 L 979 339" stroke-width="1"  class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Link MaxPinNum="2" Pin0InfoVect0LinkObjId="36000112_0" Pin1InfoVect0LinkObjId="34000111_0" Pin1InfoVect1LinkObjId="34000109_0" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="34000109">
+ <path d="M 979 339 L 959 339" stroke-width="1"  class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Link MaxPinNum="2" Pin0InfoVect0LinkObjId="34000110_1" Pin0InfoVect1LinkObjId="34000111_0" Pin1InfoVect0LinkObjId="111000117_0" Plane="0" AFMask="32799"/>
+  </metadata>
+ </g>
+ <g id="34000108">
+ <path d="M 955 471 L 955 524" stroke-width="1"  class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Link MaxPinNum="2" Pin0InfoVect0LinkObjId="101000115_1" Pin1InfoVect0LinkObjId="30000274_0" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="34000107">
+ <path d="M 1003 471 L 1003 489" stroke-width="1"  class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Link MaxPinNum="2" Pin0InfoVect0LinkObjId="101000116_1" Pin1InfoVect0LinkObjId="30000001_0" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="34000106">
+ <path d="M 979 349 L 979 368" stroke-width="1"  class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Link MaxPinNum="2" Pin0InfoVect0LinkObjId="34000111_1" Pin1InfoVect0LinkObjId="101000114_0" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="34000105">
+ <path d="M 979 382 L 979 398" stroke-width="1"  class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Link MaxPinNum="2" Pin0InfoVect0LinkObjId="101000114_1" Pin1InfoVect0LinkObjId="100000113_0" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="34000104">
+ <path d="M 979 423 L 979 439" stroke-width="1"  class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Link MaxPinNum="2" Pin0InfoVect0LinkObjId="100000113_1" Pin1InfoVect0LinkObjId="34000102_1" Pin1InfoVect1LinkObjId="34000103_0" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="34000103">
+ <path d="M 979 439 L 955 439 L 955 457" stroke-width="1"  class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Link MaxPinNum="2" Pin0InfoVect0LinkObjId="34000102_1" Pin0InfoVect1LinkObjId="34000104_1" Pin1InfoVect0LinkObjId="101000115_0" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="34000102">
+ <path d="M 1003 457 L 1003 439 L 979 439" stroke-width="1"  class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Link MaxPinNum="2" Pin0InfoVect0LinkObjId="101000116_0" Pin1InfoVect0LinkObjId="34000103_0" Pin1InfoVect1LinkObjId="34000104_1" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="34000251">
+ <path d="M 227 345 L 227 355" stroke-width="1"  class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Link MaxPinNum="2" Pin0InfoVect0LinkObjId="34000250_1" Pin0InfoVect1LinkObjId="34000249_0" Pin1InfoVect0LinkObjId="34000332_0" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="34000250">
+ <path d="M 227 322 L 227 345" stroke-width="1"  class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Link MaxPinNum="2" Pin0InfoVect0LinkObjId="32000341_0" Pin1InfoVect0LinkObjId="34000249_0" Pin1InfoVect1LinkObjId="34000251_0" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="34000249">
+ <path d="M 227 345 L 205 345" stroke-width="1"  class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Link MaxPinNum="2" Pin0InfoVect0LinkObjId="34000250_1" Pin0InfoVect1LinkObjId="34000251_0" Pin1InfoVect0LinkObjId="111000257_0" Plane="0" AFMask="32799"/>
+  </metadata>
+ </g>
+ <g id="34000248">
+ <path d="M 203 477 L 203 524" stroke-width="1"  class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Link MaxPinNum="2" Pin0InfoVect0LinkObjId="101000255_1" Pin1InfoVect0LinkObjId="30000000_0" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="34000247">
+ <path d="M 251 477 L 251 489" stroke-width="1"  class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Link MaxPinNum="2" Pin0InfoVect0LinkObjId="101000256_1" Pin1InfoVect0LinkObjId="30000001_0" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="34000244">
+ <path d="M 227 430 L 227 445" stroke-width="1"  class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Link MaxPinNum="2" Pin0InfoVect0LinkObjId="100000253_1" Pin1InfoVect0LinkObjId="34000242_1" Pin1InfoVect1LinkObjId="34000243_0" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="34000243">
+ <path d="M 227 445 L 203 445 L 203 463" stroke-width="1"  class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Link MaxPinNum="2" Pin0InfoVect0LinkObjId="34000242_1" Pin0InfoVect1LinkObjId="34000244_1" Pin1InfoVect0LinkObjId="101000255_0" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="34000242">
+ <path d="M 251 463 L 251 445 L 227 445" stroke-width="1"  class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Link MaxPinNum="2" Pin0InfoVect0LinkObjId="101000256_0" Pin1InfoVect0LinkObjId="34000243_0" Pin1InfoVect1LinkObjId="34000244_1" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="34000280">
+ <path d="M 897 467 L 897 489" stroke-width="1"  class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Link MaxPinNum="2" Pin0InfoVect0LinkObjId="101000283_1" Pin1InfoVect0LinkObjId="30000001_0" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="34000279">
+ <path d="M 849 467 L 849 524" stroke-width="1"  class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Link MaxPinNum="2" Pin0InfoVect0LinkObjId="101000282_1" Pin1InfoVect0LinkObjId="30000274_0" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="34000278">
+ <path d="M 861 435 L 849 435 L 849 453" stroke-width="1"  class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Link MaxPinNum="2" Pin0InfoVect0LinkObjId="100000281_0" Pin1InfoVect0LinkObjId="101000282_0" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="34000277">
+ <path d="M 885 435 L 897 435 L 897 453" stroke-width="1"  class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Link MaxPinNum="2" Pin0InfoVect0LinkObjId="100000281_1" Pin1InfoVect0LinkObjId="101000283_0" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="34000297">
+ <path d="M 621 339 L 621 349" stroke-width="1"  class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Link MaxPinNum="2" Pin0InfoVect0LinkObjId="34000296_1" Pin0InfoVect1LinkObjId="34000295_0" Pin1InfoVect0LinkObjId="34000292_0" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="34000296">
+ <path d="M 621 316 L 621 339" stroke-width="1"  class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Link MaxPinNum="2" Pin0InfoVect0LinkObjId="32000338_0" Pin1InfoVect0LinkObjId="34000295_0" Pin1InfoVect1LinkObjId="34000297_0" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="34000295">
+ <path d="M 621 339 L 599 339" stroke-width="1"  class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Link MaxPinNum="2" Pin0InfoVect0LinkObjId="34000296_1" Pin0InfoVect1LinkObjId="34000297_0" Pin1InfoVect0LinkObjId="111000303_0" Plane="0" AFMask="32799"/>
+  </metadata>
+ </g>
+ <g id="34000294">
+ <path d="M 597 471 L 597 524" stroke-width="1"  class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Link MaxPinNum="2" Pin0InfoVect0LinkObjId="101000301_1" Pin1InfoVect0LinkObjId="30000274_0" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="34000293">
+ <path d="M 645 471 L 645 489" stroke-width="1"  class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Link MaxPinNum="2" Pin0InfoVect0LinkObjId="101000302_1" Pin1InfoVect0LinkObjId="30000001_0" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="34000292">
+ <path d="M 621 349 L 621 368" stroke-width="1"  class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Link MaxPinNum="2" Pin0InfoVect0LinkObjId="34000297_1" Pin1InfoVect0LinkObjId="101000300_0" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="34000291">
+ <path d="M 621 382 L 621 398" stroke-width="1"  class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Link MaxPinNum="2" Pin0InfoVect0LinkObjId="101000300_1" Pin1InfoVect0LinkObjId="100000299_0" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="34000290">
+ <path d="M 621 423 L 621 439" stroke-width="1"  class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Link MaxPinNum="2" Pin0InfoVect0LinkObjId="100000299_1" Pin1InfoVect0LinkObjId="34000288_1" Pin1InfoVect1LinkObjId="34000289_0" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="34000289">
+ <path d="M 621 439 L 597 439 L 597 457" stroke-width="1"  class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Link MaxPinNum="2" Pin0InfoVect0LinkObjId="34000288_1" Pin0InfoVect1LinkObjId="34000290_1" Pin1InfoVect0LinkObjId="101000301_0" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="34000288">
+ <path d="M 645 457 L 645 439 L 621 439" stroke-width="1"  class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Link MaxPinNum="2" Pin0InfoVect0LinkObjId="101000302_0" Pin1InfoVect0LinkObjId="34000289_0" Pin1InfoVect1LinkObjId="34000290_1" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="34000308">
+ <path d="M 421 457 L 421 439 L 397 439" stroke-width="1"  class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Link MaxPinNum="2" Pin0InfoVect0LinkObjId="101000322_0" Pin1InfoVect0LinkObjId="34000309_0" Pin1InfoVect1LinkObjId="34000310_1" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="34000309">
+ <path d="M 397 439 L 373 439 L 373 457" stroke-width="1"  class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Link MaxPinNum="2" Pin0InfoVect0LinkObjId="34000308_1" Pin0InfoVect1LinkObjId="34000310_1" Pin1InfoVect0LinkObjId="101000321_0" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="34000310">
+ <path d="M 397 423 L 397 439" stroke-width="1"  class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Link MaxPinNum="2" Pin0InfoVect0LinkObjId="100000319_1" Pin1InfoVect0LinkObjId="34000308_1" Pin1InfoVect1LinkObjId="34000309_0" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="34000311">
+ <path d="M 397 382 L 397 398" stroke-width="1"  class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Link MaxPinNum="2" Pin0InfoVect0LinkObjId="101000320_1" Pin1InfoVect0LinkObjId="100000319_0" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="34000312">
+ <path d="M 397 349 L 397 368" stroke-width="1"  class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Link MaxPinNum="2" Pin0InfoVect0LinkObjId="34000317_1" Pin1InfoVect0LinkObjId="101000320_0" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="34000313">
+ <path d="M 421 471 L 421 489" stroke-width="1"  class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Link MaxPinNum="2" Pin0InfoVect0LinkObjId="101000322_1" Pin1InfoVect0LinkObjId="30000001_0" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="34000314">
+ <path d="M 373 471 L 373 524" stroke-width="1"  class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Link MaxPinNum="2" Pin0InfoVect0LinkObjId="101000321_1" Pin1InfoVect0LinkObjId="30000000_0" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="34000315">
+ <path d="M 397 339 L 375 339" stroke-width="1"  class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Link MaxPinNum="2" Pin0InfoVect0LinkObjId="34000316_1" Pin0InfoVect1LinkObjId="34000317_0" Pin1InfoVect0LinkObjId="111000323_0" Plane="0" AFMask="32799"/>
+  </metadata>
+ </g>
+ <g id="34000316">
+ <path d="M 397 316 L 397 339" stroke-width="1"  class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Link MaxPinNum="2" Pin0InfoVect0LinkObjId="36000318_0" Pin1InfoVect0LinkObjId="34000315_0" Pin1InfoVect1LinkObjId="34000317_0" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="34000317">
+ <path d="M 397 339 L 397 349" stroke-width="1"  class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Link MaxPinNum="2" Pin0InfoVect0LinkObjId="34000316_1" Pin0InfoVect1LinkObjId="34000315_0" Pin1InfoVect0LinkObjId="34000312_0" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="34000327">
+ <path d="M 445 524 L 445 539" stroke-width="1"  class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Link MaxPinNum="2" Pin0InfoVect0LinkObjId="30000000_0" Pin1InfoVect0LinkObjId="101000325_1" Plane="0" AFMask="32799"/>
+  </metadata>
+ </g>
+ <g id="34000331">
+ <path d="M 556 539 L 556 524" stroke-width="1"  class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Link MaxPinNum="2" Pin0InfoVect0LinkObjId="101000326_1" Pin1InfoVect0LinkObjId="30000274_0" Plane="0" AFMask="32799"/>
+  </metadata>
+ </g>
+ <g id="34000332">
+ <path d="M 227 355 L 227 373" stroke-width="1"  class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Link MaxPinNum="2" Pin0InfoVect0LinkObjId="34000251_1" Pin1InfoVect0LinkObjId="101000254_1" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="34000333">
+ <path d="M 227 389 L 227 406" stroke-width="1"  class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Link MaxPinNum="2" Pin0InfoVect0LinkObjId="101000254_0" Pin1InfoVect0LinkObjId="100000253_0" Plane="0" AFMask="32895"/>
+  </metadata>
+ </g>
+ <g id="34000335">
+ <path d="M 445 555 L 445 570 L 487 570" stroke-width="1"  class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Link MaxPinNum="2" Pin0InfoVect0LinkObjId="101000325_0" Pin1InfoVect0LinkObjId="100000334_0" Plane="0" AFMask="32799"/>
+  </metadata>
+ </g>
+ <g id="34000336">
+ <path d="M 511 570 L 556 570 L 556 555" stroke-width="1"  class="kv220kV"/>
+  <metadata>
+   <cge:PSR_Link MaxPinNum="2" Pin0InfoVect0LinkObjId="100000334_1" Pin1InfoVect0LinkObjId="101000326_0" Plane="0" AFMask="32799"/>
+  </metadata>
+ </g>
+</g>
+<g id="MeasurementValue_Layer">
+ <g id="33000043">
+ <text x="112" y="574" font-size="18" font-width="18" font-height="18" font-family="SimSun" fill="rgb(0,255,0)" stroke="rgb(255,0,255)" writing-mode="lr" Plane="0" AFMask="32799">-0.0</text>
+  <metadata>
+   <cge:PSR_Ref ObjectID="230001371:V" ObjectName="晨光变\230.00千伏\BS_西母北段:V" Plane="0" AFMask="32799" DataType="6" ShowStrLen="4" ShowDotNum="1" ShowSignFlag="0"/>
+  </metadata>
+ </g>
+ <g id="33000044">
+ <text x="112" y="554" font-size="18" font-width="18" font-height="18" font-family="SimSun" fill="rgb(0,255,0)" stroke="rgb(0,0,255)" writing-mode="lr" Plane="0" AFMask="32799">-0.0</text>
+  <metadata>
+   <cge:PSR_Ref ObjectID="230001371:other" ObjectName="晨光变\230.00千伏\BS_西母北段:other" Plane="0" AFMask="32799" DataType="6" ShowStrLen="4" ShowDotNum="2" ShowSignFlag="0"/>
+  </metadata>
+ </g>
+ <g id="33000045">
+ <text x="112" y="452" font-size="18" font-width="18" font-height="18" font-family="SimSun" fill="rgb(0,255,0)" stroke="rgb(255,0,255)" writing-mode="lr" Plane="0" AFMask="32799">-0.0</text>
+  <metadata>
+   <cge:PSR_Ref ObjectID="230001370:V" ObjectName="晨光变\230.00千伏\BS_东母:V" Plane="0" AFMask="32799" DataType="6" ShowStrLen="4" ShowDotNum="1" ShowSignFlag="0"/>
+  </metadata>
+ </g>
+ <g id="33000046">
+ <text x="112" y="472" font-size="18" font-width="18" font-height="18" font-family="SimSun" fill="rgb(0,255,0)" stroke="rgb(0,0,255)" writing-mode="lr" Plane="0" AFMask="32799">-0.0</text>
+  <metadata>
+   <cge:PSR_Ref ObjectID="230001370:other" ObjectName="晨光变\230.00千伏\BS_东母:other" Plane="0" AFMask="32799" DataType="6" ShowStrLen="4" ShowDotNum="2" ShowSignFlag="0"/>
+  </metadata>
+ </g>
+ <g id="33000047">
+ <text x="778" y="296" font-size="18" font-width="18" font-height="18" font-family="SimSun" fill="rgb(0,255,0)" stroke="rgb(85,255,0)" writing-mode="lr" Plane="0" AFMask="32799">-000</text>
+  <metadata>
+   <cge:PSR_Ref ObjectID="ST=210000496/LN=240000966:P" ObjectName="ST=晨光变/LN=ACLN_II灵晨线:P" Plane="0" AFMask="32799" DataType="6" ShowStrLen="4" ShowDotNum="0" ShowSignFlag="0"/>
+  </metadata>
+ </g>
+ <g id="33000048">
+ <text x="778" y="316" font-size="18" font-width="18" font-height="18" font-family="SimSun" fill="rgb(0,255,0)" stroke="rgb(85,255,255)" writing-mode="lr" Plane="0" AFMask="32799">-000</text>
+  <metadata>
+   <cge:PSR_Ref ObjectID="ST=210000496/LN=240000966:Q" ObjectName="ST=晨光变/LN=ACLN_II灵晨线:Q" Plane="0" AFMask="32799" DataType="6" ShowStrLen="4" ShowDotNum="0" ShowSignFlag="0"/>
+  </metadata>
+ </g>
+ <g id="33000069">
+ <text x="182" y="84" font-size="18" font-width="18" font-height="18" font-family="SimSun" fill="rgb(0,255,0)" stroke="rgb(85,255,255)" writing-mode="lr" Plane="0" AFMask="32799">-000</text>
+  <metadata>
+   <cge:PSR_Ref ObjectID="null" ObjectName="" Plane="0" AFMask="32799" DataType="6" ShowStrLen="4" ShowDotNum="0" ShowSignFlag="0"/>
+  </metadata>
+ </g>
+ <g id="33000068">
+ <text x="182" y="52" font-size="18" font-width="18" font-height="18" font-family="SimSun" fill="rgb(0,255,0)" stroke="rgb(85,255,0)" writing-mode="lr" Plane="0" AFMask="32799">-000</text>
+  <metadata>
+   <cge:PSR_Ref ObjectID="null" ObjectName="" Plane="0" AFMask="32799" DataType="6" ShowStrLen="4" ShowDotNum="0" ShowSignFlag="0"/>
+  </metadata>
+ </g>
+ <g id="33000100">
+ <text x="1001" y="293" font-size="18" font-width="18" font-height="18" font-family="SimSun" fill="rgb(0,255,0)" stroke="rgb(85,255,0)" writing-mode="lr" Plane="0" AFMask="32799">-000</text>
+  <metadata>
+   <cge:PSR_Ref ObjectID="ST=210000496/LN=240000965:P" ObjectName="ST=晨光变/LN=ACLN_I灵晨线:P" Plane="0" AFMask="32799" DataType="6" ShowStrLen="4" ShowDotNum="0" ShowSignFlag="0"/>
+  </metadata>
+ </g>
+ <g id="33000101">
+ <text x="1001" y="313" font-size="18" font-width="18" font-height="18" font-family="SimSun" fill="rgb(0,255,0)" stroke="rgb(85,255,255)" writing-mode="lr" Plane="0" AFMask="32799">-000</text>
+  <metadata>
+   <cge:PSR_Ref ObjectID="ST=210000496/LN=240000965:Q" ObjectName="ST=晨光变/LN=ACLN_I灵晨线:Q" Plane="0" AFMask="32799" DataType="6" ShowStrLen="4" ShowDotNum="0" ShowSignFlag="0"/>
+  </metadata>
+ </g>
+ <g id="33000225">
+ <text x="298" y="407" font-size="18" font-width="18" font-height="18" font-family="SimSun" fill="rgb(0,255,0)" stroke="rgb(85,255,255)" writing-mode="lr" Plane="0" AFMask="32799">-000</text>
+  <metadata>
+   <cge:PSR_Ref ObjectID="220005275:Q" ObjectName="晨光变\230.00千伏\CB_北220开关:Q" Plane="0" AFMask="32799" DataType="6" ShowStrLen="4" ShowDotNum="0" ShowSignFlag="0"/>
+  </metadata>
+ </g>
+ <g id="33000224">
+ <text x="298" y="387" font-size="18" font-width="18" font-height="18" font-family="SimSun" fill="rgb(0,255,0)" stroke="rgb(85,255,0)" writing-mode="lr" Plane="0" AFMask="32799">-000</text>
+  <metadata>
+   <cge:PSR_Ref ObjectID="220005275:P" ObjectName="晨光变\230.00千伏\CB_北220开关:P" Plane="0" AFMask="32799" DataType="6" ShowStrLen="4" ShowDotNum="0" ShowSignFlag="0"/>
+  </metadata>
+ </g>
+ <g id="33000275">
+ <text x="853" y="383" font-size="18" font-width="18" font-height="18" font-family="SimSun" fill="rgb(0,255,0)" stroke="rgb(85,255,0)" writing-mode="lr" Plane="0" AFMask="32799">-000</text>
+  <metadata>
+   <cge:PSR_Ref ObjectID="220005283:P" ObjectName="晨光变\230.00千伏\CB_南220开关:P" Plane="0" AFMask="32799" DataType="6" ShowStrLen="4" ShowDotNum="0" ShowSignFlag="0"/>
+  </metadata>
+ </g>
+ <g id="33000276">
+ <text x="853" y="403" font-size="18" font-width="18" font-height="18" font-family="SimSun" fill="rgb(0,255,0)" stroke="rgb(85,255,255)" writing-mode="lr" Plane="0" AFMask="32799">-000</text>
+  <metadata>
+   <cge:PSR_Ref ObjectID="220005283:Q" ObjectName="晨光变\230.00千伏\CB_南220开关:Q" Plane="0" AFMask="32799" DataType="6" ShowStrLen="4" ShowDotNum="0" ShowSignFlag="0"/>
+  </metadata>
+ </g>
+ <g id="33000306">
+ <text x="419" y="294" font-size="18" font-width="18" font-height="18" font-family="SimSun" fill="rgb(0,255,0)" stroke="rgb(85,255,0)" writing-mode="lr" Plane="0" AFMask="32799">-000</text>
+  <metadata>
+   <cge:PSR_Ref ObjectID="ST=210000496/LN=240000964:P" ObjectName="ST=晨光变/LN=ACLN_浚晨线:P" Plane="0" AFMask="32799" DataType="6" ShowStrLen="4" ShowDotNum="0" ShowSignFlag="0"/>
+  </metadata>
+ </g>
+ <g id="33000307">
+ <text x="419" y="314" font-size="18" font-width="18" font-height="18" font-family="SimSun" fill="rgb(0,255,0)" stroke="rgb(85,255,255)" writing-mode="lr" Plane="0" AFMask="32799">-000</text>
+  <metadata>
+   <cge:PSR_Ref ObjectID="ST=210000496/LN=240000964:Q" ObjectName="ST=晨光变/LN=ACLN_浚晨线:Q" Plane="0" AFMask="32799" DataType="6" ShowStrLen="4" ShowDotNum="0" ShowSignFlag="0"/>
+  </metadata>
+ </g>
+ <g id="33000339">
+ <text x="621" y="336" font-size="20" font-width="20" font-height="20" font-family="SimSun" fill="rgb(0,255,0)" stroke="rgb(85,255,0)" writing-mode="lr" Plane="0" AFMask="32799">-000</text>
+  <metadata>
+   <cge:PSR_Ref ObjectID="270001464:P" ObjectName="晨光变\230.00千伏\LD_I晨熙负荷:P" Plane="0" AFMask="32799" DataType="6" ShowStrLen="4" ShowDotNum="0" ShowSignFlag="0"/>
+  </metadata>
+ </g>
+ <g id="33000340">
+ <text x="621" y="356" font-size="20" font-width="20" font-height="20" font-family="SimSun" fill="rgb(0,255,0)" stroke="rgb(0,255,255)" writing-mode="lr" Plane="0" AFMask="32799">-000</text>
+  <metadata>
+   <cge:PSR_Ref ObjectID="270001464:Q" ObjectName="晨光变\230.00千伏\LD_I晨熙负荷:Q" Plane="0" AFMask="32799" DataType="6" ShowStrLen="4" ShowDotNum="0" ShowSignFlag="0"/>
+  </metadata>
+ </g>
+ <g id="33000342">
+ <text x="227" y="342" font-size="20" font-width="20" font-height="20" font-family="SimSun" fill="rgb(0,255,0)" stroke="rgb(85,255,0)" writing-mode="lr" Plane="0" AFMask="32799">-000</text>
+  <metadata>
+   <cge:PSR_Ref ObjectID="270001465:P" ObjectName="晨光变\230.00千伏\LD_II晨熙负荷:P" Plane="0" AFMask="32799" DataType="6" ShowStrLen="4" ShowDotNum="0" ShowSignFlag="0"/>
+  </metadata>
+ </g>
+ <g id="33000343">
+ <text x="227" y="362" font-size="20" font-width="20" font-height="20" font-family="SimSun" fill="rgb(0,255,0)" stroke="rgb(0,255,255)" writing-mode="lr" Plane="0" AFMask="32799">-000</text>
+  <metadata>
+   <cge:PSR_Ref ObjectID="270001465:Q" ObjectName="晨光变\230.00千伏\LD_II晨熙负荷:Q" Plane="0" AFMask="32799" DataType="6" ShowStrLen="4" ShowDotNum="0" ShowSignFlag="0"/>
+  </metadata>
+ </g>
+ <g id="33000345">
+ <text x="482" y="626" font-size="18" font-width="18" font-height="18" font-family="SimSun" fill="rgb(0,255,0)" stroke="rgb(85,255,255)" writing-mode="lr" Plane="0" AFMask="32799">-000</text>
+  <metadata>
+   <cge:PSR_Ref ObjectID="220005276:Q" ObjectName="晨光变\230.00千伏\CB_西220开关:Q" Plane="0" AFMask="32799" DataType="6" ShowStrLen="4" ShowDotNum="0" ShowSignFlag="0"/>
+  </metadata>
+ </g>
+ <g id="33000344">
+ <text x="482" y="606" font-size="18" font-width="18" font-height="18" font-family="SimSun" fill="rgb(0,255,0)" stroke="rgb(85,255,0)" writing-mode="lr" Plane="0" AFMask="32799">-000</text>
+  <metadata>
+   <cge:PSR_Ref ObjectID="220005276:P" ObjectName="晨光变\230.00千伏\CB_西220开关:P" Plane="0" AFMask="32799" DataType="6" ShowStrLen="4" ShowDotNum="0" ShowSignFlag="0"/>
+  </metadata>
+ </g>
+ <g id="33000346">
+ <text x="1032" y="578" font-size="18" font-width="18" font-height="18" font-family="SimSun" fill="rgb(255,0,255)" stroke="rgb(255,0,255)" writing-mode="lr" Plane="0" AFMask="32799">-0.0</text>
+  <metadata>
+   <cge:PSR_Ref ObjectID="230001372:V" ObjectName="晨光变\230.00千伏\BS_西母南段:V" Plane="0" AFMask="32799" DataType="6" ShowStrLen="4" ShowDotNum="2" ShowSignFlag="0"/>
+  </metadata>
+ </g>
+ <g id="33000347">
+ <text x="1029" y="553" font-size="18" font-width="18" font-height="18" font-family="SimSun" fill="rgb(0,255,0)" stroke="rgb(0,0,255)" writing-mode="lr" Plane="0" AFMask="32799">-0.0</text>
+  <metadata>
+   <cge:PSR_Ref ObjectID="230001372:other" ObjectName="晨光变\230.00千伏\BS_西母南段:other" Plane="0" AFMask="32799" DataType="6" ShowStrLen="4" ShowDotNum="2" ShowSignFlag="0"/>
+  </metadata>
+ </g>
+ <g id="33000265">
+ <text x="828" y="703" font-size="18" font-width="18" font-height="18" font-family="SimSun" fill="rgb(0,255,0)" stroke="rgb(128,128,128)" writing-mode="lr" Plane="1" AFMask="32799">-000</text>
+  <metadata>
+   <cge:PSR_Ref ObjectID="270001196:P" ObjectName="淇县变\115.00千伏\LD_112负荷:P" Plane="1" AFMask="32799" DataType="6" ShowStrLen="4" ShowDotNum="0" ShowSignFlag="0"/>
+  </metadata>
+ </g>
+ <g id="33000266">
+ <text x="829" y="722" font-size="18" font-width="18" font-height="18" font-family="SimSun" fill="rgb(0,255,0)" stroke="rgb(128,128,128)" writing-mode="lr" Plane="1" AFMask="32799">-000</text>
+  <metadata>
+   <cge:PSR_Ref ObjectID="270001196:Q" ObjectName="淇县变\115.00千伏\LD_112负荷:Q" Plane="1" AFMask="32799" DataType="6" ShowStrLen="4" ShowDotNum="0" ShowSignFlag="0"/>
+  </metadata>
+ </g>
+ <g id="33000267">
+ <text x="1108" y="707" font-size="18" font-width="18" font-height="18" font-family="SimSun" fill="rgb(0,255,0)" stroke="rgb(128,128,128)" writing-mode="lr" Plane="1" AFMask="32799">-000</text>
+  <metadata>
+   <cge:PSR_Ref ObjectID="270001197:P" ObjectName="淇县变\115.00千伏\LD_113负荷:P" Plane="1" AFMask="32799" DataType="6" ShowStrLen="4" ShowDotNum="0" ShowSignFlag="0"/>
+  </metadata>
+ </g>
+ <g id="33000268">
+ <text x="1109" y="726" font-size="18" font-width="18" font-height="18" font-family="SimSun" fill="rgb(0,255,0)" stroke="rgb(128,128,128)" writing-mode="lr" Plane="1" AFMask="32799">-000</text>
+  <metadata>
+   <cge:PSR_Ref ObjectID="270001197:Q" ObjectName="淇县变\115.00千伏\LD_113负荷:Q" Plane="1" AFMask="32799" DataType="6" ShowStrLen="4" ShowDotNum="0" ShowSignFlag="0"/>
+  </metadata>
+ </g>
+ <g id="33000270">
+ <text x="678" y="861" font-size="18" font-width="18" font-height="18" font-family="SimSun" fill="rgb(0,255,0)" stroke="rgb(128,128,128)" writing-mode="lr" Plane="1" AFMask="32799">-000</text>
+  <metadata>
+   <cge:PSR_Ref ObjectID="270001198:Q" ObjectName="淇县变\37.00千伏\LD_352负荷:Q" Plane="1" AFMask="32799" DataType="6" ShowStrLen="4" ShowDotNum="0" ShowSignFlag="0"/>
+  </metadata>
+ </g>
+ <g id="33000269">
+ <text x="677" y="842" font-size="18" font-width="18" font-height="18" font-family="SimSun" fill="rgb(0,255,0)" stroke="rgb(128,128,128)" writing-mode="lr" Plane="1" AFMask="32799">-000</text>
+  <metadata>
+   <cge:PSR_Ref ObjectID="270001198:P" ObjectName="淇县变\37.00千伏\LD_352负荷:P" Plane="1" AFMask="32799" DataType="6" ShowStrLen="4" ShowDotNum="0" ShowSignFlag="0"/>
+  </metadata>
+ </g>
+ <g id="33000271">
+ <text x="974" y="850" font-size="18" font-width="18" font-height="18" font-family="SimSun" fill="rgb(0,255,0)" stroke="rgb(128,128,128)" writing-mode="lr" Plane="1" AFMask="32799">-000</text>
+  <metadata>
+   <cge:PSR_Ref ObjectID="270001199:P" ObjectName="淇县变\37.00千伏\LD_353负荷:P" Plane="1" AFMask="32799" DataType="6" ShowStrLen="4" ShowDotNum="0" ShowSignFlag="0"/>
+  </metadata>
+ </g>
+ <g id="33000272">
+ <text x="975" y="869" font-size="18" font-width="18" font-height="18" font-family="SimSun" fill="rgb(0,255,0)" stroke="rgb(128,128,128)" writing-mode="lr" Plane="1" AFMask="32799">-000</text>
+  <metadata>
+   <cge:PSR_Ref ObjectID="270001199:Q" ObjectName="淇县变\37.00千伏\LD_353负荷:Q" Plane="1" AFMask="32799" DataType="6" ShowStrLen="4" ShowDotNum="0" ShowSignFlag="0"/>
+  </metadata>
+ </g>
+</g>
+<g id="Text_Layer">
+ <text x="938" y="205" font-size="25" font-width="25" font-height="25" font-family="SimSun" fill="rgb(141,207,244)" stroke="rgb(141,207,244)" writing-mode="lr" Plane="0" AFMask="32895">I灵晨线</text>
+ <text x="52" y="86" font-size="20" font-width="20" font-height="20" font-family="SimSun" fill="rgb(0,255,255)" stroke="rgb(0,255,255)" writing-mode="lr" Plane="0" AFMask="32895">无功总加</text>
+ <text x="52" y="54" font-size="20" font-width="20" font-height="20" font-family="SimSun" fill="rgb(0,255,0)" stroke="rgb(0,255,0)" writing-mode="lr" Plane="0" AFMask="32895">有功总加</text>
+ <text x="714" y="204" font-size="24" font-width="24" font-height="24" font-family="SimSun" fill="rgb(141,207,244)" stroke="rgb(141,207,244)" writing-mode="lr" Plane="0" AFMask="32895">II灵晨线</text>
+ <text x="81" y="495" font-size="24" font-width="24" font-height="24" font-family="SimSun" fill="rgb(141,207,244)" stroke="rgb(141,207,244)" writing-mode="lr" Plane="0" AFMask="32895">东</text>
+ <text x="81" y="534" font-size="24" font-width="24" font-height="24" font-family="SimSun" fill="rgb(141,207,244)" stroke="rgb(141,207,244)" writing-mode="lr" Plane="0" AFMask="32895">西北</text>
+ <text x="592" y="92" font-size="40" font-width="40" font-height="40" font-family="SimSun" fill="rgb(0,0,255)" stroke="rgb(0,0,255)" writing-mode="lr" Plane="0" AFMask="32895">晨光变电站</text>
+ <text x="181" y="204" font-size="24" font-width="24" font-height="24" font-family="SimSun" fill="rgb(141,207,244)" stroke="rgb(141,207,244)" writing-mode="lr" Plane="0" AFMask="32895">II晨熙线</text>
+ <text x="575" y="204" font-size="24" font-width="24" font-height="24" font-family="SimSun" fill="rgb(141,207,244)" stroke="rgb(141,207,244)" writing-mode="lr" Plane="0" AFMask="32895">I晨熙线</text>
+ <text x="365" y="204" font-size="24" font-width="24" font-height="24" font-family="SimSun" fill="rgb(141,207,244)" stroke="rgb(141,207,244)" writing-mode="lr" Plane="0" AFMask="32895">浚晨线</text>
+ <text x="1080" y="539" font-size="24" font-width="24" font-height="24" font-family="SimSun" fill="rgb(141,207,244)" stroke="rgb(141,207,244)" writing-mode="lr" Plane="0" AFMask="32895">西南</text>
+</g>
+</svg>

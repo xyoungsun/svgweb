@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+		"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+		"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.ceit.svg.entity">
+	<class name="Graphic" table="GRAPHIC">
+		<id name="id" type="integer" column="ID">
+			<generator class="native" />
+		</id>
+		<property name="name" type="string" column="NAME" />
+		
+		<property name="parentId" type="integer" column="PARENTID" />
+		
+		<property name="data" type="blob" column="DATA"  />
+		
+		<property name="bgbmp" type="blob" column="BGBMP" />
+		
+		<property name="dispIndex" type="integer" column="DISPINDEX" />
+		
+		<property name="authorizes" type="string" column="AUTHORIZES" />
+		
+		<property name="ips" type="string" column="IPS" />
+		
+		<property name="graphicSize" type="string" column="GRAPHICSIZE" />
+		
+		<property name="canvasSize" type="string" column="CANVASSIZE" />
+		
+		<property name="isNew" type="integer" column="ISNEW" />
+		
+		<property name="cityId" type="integer" column="CITYID" />
+		
+		<property name="updateDate" type="string" column="UPDATEDATE" />
+		
+	</class>
+</hibernate-mapping>

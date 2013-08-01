@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>position demo</title>
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css">
+  <style>
+  #menu {
+	font-size: 80%;
+	font-family: "Trebuchet MS", "Arial", "Helvetica", "Verdana", "sans-serif";
+	}
+  .ui-menu { width: 150px; }
+  .positionDiv {
+    position: absolute;
+    width: 98%;
+    height: 90%;
+   
+  }
+  .positionDiv1 {
+    position: absolute;
+    width: 150px;
+    background: blue;
+  }
+ 
+  </style>
+  <script src="http://code.jquery.com/jquery-1.7.2.js"></script>
+  <script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+  	<script type="text/javascript" src="jquery-plugin/jquery.svg.package-1.4.5/jquery.svg.min.js"></script>
+	<script>
+		var svg = $('#position2').svg({onLoad: drawIntro})
+		function drawIntro(svg) {
+			svg.load("CGB.svg", {
+		//addTo : $('#addTo')[0].checked,
+			changeSize : false
+		});
+		}
+	</script>
+</head>
+<body>
+ 
+<div id="targetElement1">
+
+  <div class="positionDiv" id="position2"></div>
+  
+  <div class="positionDiv1" id="position4">
+  <ul id="menu">
+	<li class="ui-state-disabled"><a href="#">Aberdeen</a></li>
+	<li><a href="#">Ada</a></li>
+	<li><a href="#">Adamsville</a></li>
+	<li><a href="#">Addyston</a></li>
+	<li>
+		<a href="#">Delphi</a>
+		<ul>
+			<li class="ui-state-disabled"><a href="#">Ada</a></li>
+			<li><a href="#">Saarland</a></li>
+			<li><a href="#">Salzburg</a></li>
+		</ul>
+	</li>
+	<li><a href="#">Saarland</a></li>
+	<li>
+		<a href="#">Salzburg</a>
+		<ul>
+			<li>
+				<a href="#">Delphi</a>
+				<ul>
+					<li><a href="#">Ada</a></li>
+					<li><a href="#">Saarland</a></li>
+					<li><a href="#">Salzburg</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">Delphi</a>
+				<ul>
+					<li><a href="#">Ada</a></li>
+					<li><a href="#">Saarland</a></li>
+					<li><a href="#">Salzburg</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Perch</a></li>
+		</ul>
+	</li>
+	<li class="ui-state-disabled"><a href="#">Amesville</a></li>
+</ul>
+  </div>
+</div>
+ 
+<script>
+	
+	
+$( "#menu" ).menu();
+ 
+$( "#position2" ).position({
+  my: "left top",
+  at: "left top",
+  of: "#targetElement1"
+});
+ 
+
+ 
+$( "#position4" ).position({
+  my: "left top",
+  at: "left top",
+  of: "#targetElement1"
+});
+</script>
+ 
+</body>
+</html>
